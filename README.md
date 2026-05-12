@@ -28,9 +28,9 @@ Whether you run an e-commerce store, a consulting firm, or a SaaS company, these
 
 Where to deploy and run your agent skills.
 
-- [ClawAgora](https://www.clawagora.com) - Community-driven marketplace and managed hosting for AI agents. One-click deployment, no coding required. Supports OpenClaw and Hermes runtimes.
-- [OpenClaw](https://www.clawagora.com/features) - Open-source containerized agent runtime with full platform integrations (web search, vision, 3000+ app connections).
-- [Hermes](https://www.clawagora.com/features) - Lightweight agent runtime for simpler automation tasks that don't need full platform features.
+- [OpenClaw](https://github.com/openclaw/openclaw) - Open-source personal AI assistant and gateway. Connects 20+ messaging channels (Slack, Telegram, WhatsApp, Discord, etc.) to AI agents. Self-hosted or managed. ([Docs](https://docs.openclaw.ai/))
+- [Hermes Agent](https://github.com/NousResearch/hermes-agent) - Self-improving AI agent by Nous Research with a built-in learning loop. Creates skills from experience, remembers across sessions, runs on 20+ platforms. ([Docs](https://hermes-agent.nousresearch.com/docs/))
+- [ClawAgora](https://www.clawagora.com) - Managed hosting platform and workspace template marketplace for OpenClaw agents. One-click deployment, no coding or self-hosting required. ([Pricing](https://www.clawagora.com/en/pricing))
 
 ## Email & Communication
 
@@ -149,20 +149,23 @@ Common platforms these skills connect to.
 | Social Media | LinkedIn, Twitter/X, Instagram, Facebook |
 | Dev & Analytics | GitHub, Google Analytics, Mixpanel |
 
-For a full list of 3000+ supported integrations, see the [ClawAgora Integrations page](https://www.clawagora.com/features).
+OpenClaw supports 3000+ app integrations. See the [ClawAgora Features page](https://www.clawagora.com/en/features) for a full list, or the [OpenClaw documentation](https://docs.openclaw.ai/) for self-hosted setup.
 
 ## Learning Resources
 
-- [Getting Started with AI Agents for Your Business](https://www.clawagora.com/docs) - Step-by-step guide to deploying your first agent.
-- [What Are Agent Skills?](https://www.clawagora.com/docs) - Understanding how modular skills make agents useful.
-- [OpenClaw Runtime Guide](https://www.clawagora.com/features) - Technical overview of the OpenClaw agent runtime.
-- [Choosing the Right Runtime: OpenClaw vs Hermes](https://www.clawagora.com/features) - When to use each runtime for your use case.
-- [Building Custom Skills](https://www.clawagora.com/docs) - Guide for creating and publishing your own agent skills.
+- [OpenClaw Getting Started Guide](https://documentation.openclaw.ai/start/getting-started) - Install OpenClaw and chat with your AI assistant in under 5 minutes.
+- [OpenClaw Agent Workspace](https://documentation.openclaw.ai/concepts/agent-workspace) - Understanding how workspaces, skills, and configurations fit together.
+- [Hermes Agent Quickstart](https://hermes-agent.nousresearch.com/docs/getting-started/quickstart) - Get Hermes Agent running with the one-line installer.
+- [Hermes Skills Hub](https://hermes-agent.nousresearch.com/docs/skills/) - Browse and install community-contributed skills for Hermes.
+- [How to Run OpenClaw Without Self-Hosting](https://www.clawagora.com/en/blog/how-to-run-openclaw-without-self-hosting) - Every managed hosting option compared, including ClawAgora.
+- [5 Workspace Patterns for Power Users](https://www.clawagora.com/en/blog/5-workspace-patterns-power-users) - Advanced patterns that separate beginners from power users.
 
 ## Community
 
-- [ClawAgora Marketplace](https://www.clawagora.com/marketplace) - Browse and download community-built agent templates.
-- [ClawAgora Blog](https://www.clawagora.com/blog) - Tutorials, case studies, and product updates.
+- [OpenClaw GitHub](https://github.com/openclaw/openclaw) - Source code, issues, and community discussions for OpenClaw.
+- [Hermes Agent GitHub](https://github.com/NousResearch/hermes-agent) - Source code and releases for Hermes Agent.
+- [ClawAgora Marketplace](https://www.clawagora.com/en/marketplace) - Browse and download community-built agent workspace templates.
+- [ClawAgora Blog](https://www.clawagora.com/en/blog) - Tutorials, comparisons, and workspace tips.
 - [GitHub Discussions](https://github.com/clawagora/awesome-business-agent-skills/discussions) - Ask questions, request skills, and share your setups.
 
 ## Contributing
