@@ -1,0 +1,26 @@
+name: Report Broken Link
+description: Report a broken or outdated link in the list
+title: "[Broken]: "
+labels: ["broken-link"]
+body:
+  - type: input
+    id: skill-name
+    attributes:
+      label: Skill Name
+      description: Which skill has the broken link?
+      placeholder: e.g., Invoice Processor
+    validations:
+      required: true
+  - type: input
+    id: broken-url
+    attributes:
+      label: Broken URL
+      placeholder: https://...
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What happens when you click the link? (404, redirect, etc.)
+      placeholder: Returns 404 Not Found

@@ -1,0 +1,56 @@
+name: Suggest a Skill
+description: Suggest a new AI agent skill to add to the list
+title: "[Skill]: "
+labels: ["suggestion"]
+body:
+  - type: input
+    id: skill-name
+    attributes:
+      label: Skill Name
+      placeholder: e.g., Invoice Processor
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Email & Communication
+        - Customer Support
+        - Sales & CRM
+        - Content & Marketing
+        - Operations & Admin
+        - Finance & Accounting
+        - HR & Recruiting
+        - Legal & Compliance
+        - E-Commerce
+        - Data & Analytics
+        - Other (describe below)
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What does this skill do? How does it help a business owner?
+      placeholder: 1-2 sentences describing the skill and its business value
+    validations:
+      required: true
+  - type: checkboxes
+    id: runtime
+    attributes:
+      label: Compatible Runtimes
+      options:
+        - label: OpenClaw
+        - label: Hermes
+  - type: input
+    id: link
+    attributes:
+      label: Link (optional)
+      description: Link to the skill's repo, marketplace page, or documentation
+      placeholder: https://...
+  - type: textarea
+    id: experience
+    attributes:
+      label: Your Experience (optional)
+      description: Have you used this skill? Tell us how it worked for you.
